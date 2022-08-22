@@ -1,7 +1,6 @@
 import './App.css';
 import { BsLinkedin } from "react-icons/bs";
 import { BsGithub } from "react-icons/bs";
-import { BsFileText } from "react-icons/bs";
 import { MdOutlineMail } from "react-icons/md";
 
 function App() {
@@ -29,7 +28,7 @@ function App() {
         <div className="am">
           <h1>A little about me</h1>
           <p>
-          I’m a full Stack developer, who looks to make apps more positively engaging, visually appealing, and oddlysatisfying! I have always loved the clean, modern overall fresh look of things. I am driven by my need to make products the user will want to use everyday, making it a clean and an aesthetically pleasing experience. 
+          I’m a Full Stack developer, who looks to make apps more positively engaging, visually appealing, and oddlysatisfying! I have always loved the clean, modern overall fresh look of things. I am driven by my need to make products the user will want to use everyday, making it a clean and an aesthetically pleasing experience. 
           </p>
         </div>
       <div className="me">
