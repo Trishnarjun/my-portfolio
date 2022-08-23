@@ -2,6 +2,8 @@ import './App.css';
 import { BsLinkedin } from "react-icons/bs";
 import { BsGithub } from "react-icons/bs";
 import { MdOutlineMail } from "react-icons/md";
+import { MdOutlineContentCopy } from "react-icons/md";
+import { CopyToClipboard } from 'react-copy-to-clipboard';
 
 function App() {
   return (
@@ -18,7 +20,7 @@ function App() {
             {/* <a href="https://resume.creddle.io/resume/3bsciviv437" target="_blank imply noopener"><p><BsFileText/> Resume</p></a> */}
             <a href="https://www.linkedin.com/in/tk-99-/" target="_blank imply noopener"><p><BsLinkedin/> Linkedin</p></a>
             <a href="https://github.com/Trishnarjun" target="_blank imply noopener"><p><BsGithub/> Github</p></a>
-            <p><MdOutlineMail/> Trishnarjun.k@gmail.com</p>
+            <CopyToClipboard text = "Trishnarjun.k@gmail.com"><p className='copylink'><MdOutlineMail/> Trishnarjun.k@gmail.com <MdOutlineContentCopy/></p></CopyToClipboard>
           </div>
         </div>
         <div className="realName">
@@ -28,7 +30,7 @@ function App() {
         <div className="am">
           <h1>A little about me</h1>
           <p>
-          I’m a Full Stack developer, who looks to make apps more positively engaging, visually appealing, and oddlysatisfying! I have always loved the clean, modern and overall fresh look of things. I am driven by my need to make products the user will want to use everyday, making it a intuitive and an aesthetically pleasing experience. 
+          I’m a Full Stack developer, who looks to make apps more positively engaging, visually appealing, and oddlysatisfying! I have always loved the clean, modern and overall fresh look of things. I am driven by my need to make products the user will want to use everyday, making it a aesthetically pleasing and intuitive experience. 
           </p>
         </div>
       <div className="me">
@@ -74,12 +76,12 @@ function App() {
       </div>
       <div className='contact'>
         <div>
-          <h2>Contact</h2>
+          <h2>Contact:</h2>
         </div>
         <div className='links2'>
             {/* <a href="https://resume.creddle.io/resume/3bsciviv437" target="_blank imply noopener"><p><BsFileText/> Resume</p></a> */}
             <a href="https://www.linkedin.com/in/tk-99-/" target="_blank imply noopener"><p><BsLinkedin/> Linkedin</p></a>
-            <p><MdOutlineMail/> Trishnarjun.k@gmail.com</p>
+            <CopyToClipboard text = "Trishnarjun.k@gmail.com"><p className='copylink'><MdOutlineMail/> Trishnarjun.k@gmail.com <MdOutlineContentCopy/></p></CopyToClipboard>
           </div>
       </div>
       
